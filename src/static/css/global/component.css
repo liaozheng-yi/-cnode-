@@ -1,0 +1,63 @@
+.pageLayout {
+    min-height: 100vh;
+}
+
+.container {
+    margin: 0 5px;
+}
+
+#header {
+    height: 100px;
+    line-height: 50px;
+    background-color: #444444;
+}
+
+#headerMenu {
+    text-align: center;
+    background-color: #444444;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+.topicTag {
+    margin: 0 10px;
+}
+
+#indexFooter {
+    padding: 24px 0;
+}
+
+@media all and (min-width:576px) {
+    .container {
+        margin: 0 10px;
+    }
+    #header {
+        height: 50px;
+        line-height: 50px;
+    }
+    #headerMenu {
+        text-align: left;
+    }
+    .topicTag {
+        margin: 0 5px;
+    }
+}
+
+@media all and (min-width:768px) {
+    .container {
+        margin: 0 20px;
+    }
+    .topicTag {
+        margin: 0 5px 0 0;
+    }
+}
+
+@media all and (min-width:992px) {
+    .container {
+        margin: 0 auto;
+        width: 992px;
+    }
+}

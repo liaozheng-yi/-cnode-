@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.css';
+
+
+/*此处直接覆盖了antd的样式*/
+
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover {
+    background-color: #80bd01;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected a{
+    color: #80bd01;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item  a:hover{
+    color: #80bd01;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, 
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+    color:  #80bd01;
+    border-bottom: 2px solid #80bd01;
+}
+/*此处直接覆盖了antd的样式*/
